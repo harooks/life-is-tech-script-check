@@ -8,11 +8,11 @@ Script　の翻訳を少し楽にするコード
 e.g. b_zootopia_6/lesson_snaps
 3. ファイルを実行  
 **実行方法:**  
-    - `python3 <check.pyのパス> ls`  
+    - `<python3のパス> <check.pyのパス> ls`  
     step づつどのファイルが編集されているかをリストアウト。（それ以外のファイルは翻訳を前のステップからコピペすればいい。）　　
-    - `python3 <check.pyのパス> copy <source> <destination>`(例： python3 <path> step010 step080)  
+    - `<python3のパス> <check.pyのパス> copy <source> <destination>`(例： <python3のパス> <path> copy step010 step080)  
   src のステップのファイルのコンテンツを src から dest ステップまで全てのステップのファイルにコピーする。ただし編集されているファイルはコピーされない。編集されているファイルが同じステップをまとめてコピペするといい。  　　
-    - `python3 <check.pyのパス> japanese`  
+    - `<python3のパス> <check.pyのパス> japanese`  
     lesson_snaps の中の　editor フォルダにあるレッスンファイルの中に日本が残っているかチェックする。残っていればどのフィイルにあるか出力される。
   
   
